@@ -1,9 +1,9 @@
-Package: Alphacast
+Package: alphacaster
 Type: Package
 Title: An easy way to get and post data, repos and charts from Alphacast. 
 Version: 0.1.5
-Author: Juan Ignacio Fulponi
-Maintainer: Juan Ignacio Fulponi <jfulponi@alphacast.io>
+Author: Alejandro Abraham
+Maintainer: Alejandro Abraham <aleabrham6@gmail.com>
 Description: With this package you can get all the datasets available with your level of access in Alphacast, upload your own data and plot whathever you want.
 License: GPLv3 license
 Encoding: UTF-8
@@ -12,5 +12,5 @@ RoxygenNote: 7.2.0
 Imports:
     dplyr,
     httr,
-    reshape2
+    reshape2,
     data.table

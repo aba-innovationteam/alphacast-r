@@ -15,7 +15,7 @@ get_dataframe <- function(dataset_id, alphacast_api_key, long = FALSE) {
 
   if (is.numeric(dataset_id)) {
 
-    r <- httr::GET(paste("https://api.alphacast.io/datasets/", dataset_id,".csv", sep=""),
+    r <- httr::GET(paste("https://api.alphacast.io/datasets/", dataset_id, ".csv", sep = ""),
                    httr::authenticate(user = alphacast_api_key, password = "")
                    )
 

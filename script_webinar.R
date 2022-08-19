@@ -1,5 +1,22 @@
 ### Ir a Settings y obtener API Key
-alphacast_api_key <- "COLOCAR_TU_API_KEY"
+alphacast_api_key <- "ak_mNX1s7ofC3Tf1MAig4AD" # mia
+alphacast_api_key <- "ak_ELA3uT4hGhIDLtsIsul4" # wachin
+
+
+
+
+library(httr)
+
+
+
+
+
+
+
+
+
+
+
 
 ## Instalar desde Github la librería de Alphacast
 
